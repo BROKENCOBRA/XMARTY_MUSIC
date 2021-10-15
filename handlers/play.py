@@ -118,7 +118,7 @@ async def play(_, message: Message):
                 try:
                     await USER.join_chat(invitelink)
                     await USER.send_message(
-                        message.chat.id, "**ϰмαяτγ мυѕιϲ αѕѕιѕταиτ נοιиє∂ τнιѕ gяουρ ƒοя ρℓαγ мυѕιϲ🎵**")
+                        message.chat.id, "**αѕѕιѕταиτ נοιиє∂ τнιѕ gяουρ ƒοя ρℓαγ мυѕιϲ🎵**")
 
                 except UserAlreadyParticipant:
                     pass
@@ -152,8 +152,8 @@ async def play(_, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        text="𝘾𝙝𝙖𝙣𝙣𝙚𝙡 🔊",
-                        url="https://t.me/Xmarty_support")
+                        text="𝙂𝙧𝙤𝙪𝙥 🔊",
+                        url="https://t.me/cchour")
                    
                 ]
             ]
@@ -194,7 +194,7 @@ async def play(_, message: Message):
                             url=f"{url}"),
                         InlineKeyboardButton(
                             text="𝙟𝙤𝙞𝙣 𝙛𝙤𝙧 𝙢𝙖𝙠𝙞𝙣𝙜 𝙪𝙧 𝙤𝙬𝙣 ",
-                            url=f"https://t.me/Xmarty_Support")
+                            url=f"https://t.me/shivamdemon")
 
                     ]
                 ]
